@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyVideoCalling.iml" filepath="$PROJECT_DIR$/.idea/modules/MyVideoCalling.iml" group="MyVideoCalling" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyVideoCalling-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyVideoCalling-app.iml" group="MyVideoCalling/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ffmpeglib/MyVideoCalling-ffmpeglib.iml" filepath="$PROJECT_DIR$/.idea/modules/ffmpeglib/MyVideoCalling-ffmpeglib.iml" group="MyVideoCalling/ffmpeglib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opengl/MyVideoCalling-opengl.iml" filepath="$PROJECT_DIR$/.idea/modules/opengl/MyVideoCalling-opengl.iml" group="MyVideoCalling/opengl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/x264encoder/MyVideoCalling-x264encoder.iml" filepath="$PROJECT_DIR$/.idea/modules/x264encoder/MyVideoCalling-x264encoder.iml" group="MyVideoCalling/x264encoder" />
+      <module fileurl="file://$PROJECT_DIR$/VideoCalling.iml" filepath="$PROJECT_DIR$/VideoCalling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ffmpeglib/ffmpeglib.iml" filepath="$PROJECT_DIR$/ffmpeglib/ffmpeglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengl/opengl.iml" filepath="$PROJECT_DIR$/opengl/opengl.iml" />
+      <module fileurl="file://F:/code/VideoCalling/rtplib/rtplib.iml" filepath="F:/code/VideoCalling/rtplib/rtplib.iml" />
+      <module fileurl="file://F:/code/VideoCalling/sample/sample.iml" filepath="F:/code/VideoCalling/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/x264encoder/x264encoder.iml" filepath="$PROJECT_DIR$/x264encoder/x264encoder.iml" />
+    </modules>
+  </component>
+</project>

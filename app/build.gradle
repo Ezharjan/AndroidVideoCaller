@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.ggh.video"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.1'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation project(':ffmpeglib')
+    implementation 'io.netty:netty-all:4.1.17.Final'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0'
+    // log日志打印输出
+    debugImplementation 'com.apkfuns.logutils:library:1.5.1.1'
+    releaseImplementation 'com.apkfuns.logutils:logutils-no-op:1.5.1.1'
+    // butterknife
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    //权限申请库
+    implementation 'com.yanzhenjie:permission:2.0.0-rc4'
+    implementation project(':x264encoder')
+    implementation project(':opengl')
+    implementation 'com.android.support:multidex:1.0.3'
+}
